@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.summary     = 'Gem wrapper to install libqrencode on Heroku'
   s.description = 'Gem wrapper to install libqrencode on Heroku'
 
-  s.files       = Dir.glob("vendor/**/*") + %w(README.md)
+  s.files       = Dir.glob("{lib,vendor}/**/*") + %w(README.md)
   s.extensions  = ['vendor/qrencode-3.1.1/configure']
 end
